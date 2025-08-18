@@ -14,7 +14,15 @@ st.title("🇸🇬 AskGov SG - CPF Policy Q&A")
 
 # --- Disclaimer ---
 with st.expander("📢 Important Disclaimer"):
-    st.markdown("""
+    st.markdown("""# 1. Stage the file(s) you changed
+git add requirements.txt
+
+# 2. Commit the changes with a message
+git commit -m "Cleaned up requirements.txt for deployment"
+
+# 3. Push to the remote repository (default branch, e.g. main or master)
+git push
+
     **IMPORTANT NOTICE:** This web application is a prototype developed for educational purposes only. The information provided here is **NOT** intended for real-world usage and should **not** be relied upon for making any decisions, especially those related to **financial, legal, or healthcare matters**.
 
     Furthermore, please be aware that the LLM may generate **inaccurate or incorrect information**. You assume full responsibility for how you use any generated output.
